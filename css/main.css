@@ -5,29 +5,40 @@
 /*****************************************************************************/
 
 /* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body { height: 100%; }
+html {
+  font: 100%/1.5 "Noto Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;}
 
 body {
   background-color: #FFF;
-  font: 16.18px Helvetica, Arial, sans-serif;
+  font: 17px 'Noto Sans' Helvetica, Arial, sans-serif;
   font-size: normal;
+  color: #555;
   text-align: justify;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+h1 { font-size: 2.782em; line-height: 1.2em;}
+h2 { font-size: 1.719em; line-height: 1.8em}
+h3 { font-size: 1.063em; }
+
+h4, h5, h6 {font-size: 100%}
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+p {
+  font-size: 1em/1.5;
+  margin: 1em 0; 
+}
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #666; }
+a:hover   { color: #ada; }
+a:visited { color: #666; }
 
 /*****************************************************************************/
 /*
@@ -55,10 +66,10 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
-.site {
-  font-size: 115%;
+.container {
+  font-size: 1em;
   text-align: justify;
-  width: 42em;
+  width: 900px;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -68,16 +79,18 @@ a:visited { color: #a0a; }
   text-decoration: none;
 }
 
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
+.logo img{
+  display: inline;
+  height: 30%;
+  width: 30%;
+  /*margin-bottom: 2em;*/
 }
 
-.title a {
+.logo a {
   color: #a00;
 }
 
-.title a:hover {
+.logo a:hover {
   color: #000;
 }
 
@@ -157,4 +170,13 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+
+@media (min-width: 40rem) {
+  html { font-size: 112%; }
+}
+
+@media (min-width: 64rem) {
+  html { font-size: 120%; }
 }

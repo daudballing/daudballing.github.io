@@ -14,6 +14,7 @@ I have been thinking for some time now to begin my own personal blog, for a few 
 The idea behind this blog came from a visit at Adam Kaplan's <a href="http://www.adamkaplan.me/">site</a>. He uses his site to write about his learning progress and shows some of his projects as well. Go check him out!
 
 <h2>Topics I'm considering posting on:</h2>
+
 <ul>
 	<li>Ruby</li>
 	<li>QlikView</li>
@@ -23,7 +24,7 @@ The idea behind this blog came from a visit at Adam Kaplan's <a href="http://www
 	<li>Management and Organization</li>
 </ul>
 
-<i>Please note that this site is under heavy influence of learning curves and learning challenges, and thus may be subject to incorrect use of code/language/imagination/thoughts/expressions/etc./this-is-beginning-to-look-like-a-folder-structure - but for now this is what this site can offer.</i>
+<i>Please note that this site is under heavy influence of both steep learning curves and challenges and may be subject to incorrect use of code/language/imagination/thoughts/expressions/etc./this-is-beginning-to-look-like-a-folder-structure - but for now this is what this site can offer.</i>
 
 Sites of inspiration that got me going with Jekyll includes:
 <ul>
