@@ -11,7 +11,7 @@ categories: post
 
 I have been thinking for some time now to begin my own personal blog, for a few main purposes. That is, to be able to assess more clearly the progress I'm doing in my work, stuff from school and to set some goals for further achievements.
 
-The idea behind this blog came from a visit at Adam Kaplan's <a href="http://www.adamkaplan.me/">site</a>. He uses his site to write about his learning progress and shows some of his projects as well. Go check him out!
+The idea behind this blog came from a visit at Adam Kaplan's <a href="http://www.adamkaplan.me/">site</a>. He uses his site to write about his learning progress and shows some of his projects as well. Go check his stuff!
 
 <h2>Topics I'm considering posting on:</h2>
 
