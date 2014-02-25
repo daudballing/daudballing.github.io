@@ -18,29 +18,15 @@
     </head>
     <body>
 
-        <div class="container">
-          <div class="header">
-            <div class="logo"><a href="/"><img src="/assets/images/signature.png"></a></div>
-            <div class="navigation"><a href="/">home</a></div>
-          </div>
+    <div class="container">
+        <header>
+        {% include navigation.html %}
+        </header>
 
           {{ content }}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Daud Balling<br />
-                <a href="mailto:hello@daudballing.me">Say Hello</a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                // My <a href="https://github.com/daudballing">CODE</a><br />
-                // My <a href="https://twitter.com/dauddenmark">TWITTER</a><br />
-              </p>
-            </div>
-          </div>
+         {% include footer.html %}
+        
         </div>
-
     </body>
 </html>
