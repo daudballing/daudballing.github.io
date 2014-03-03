@@ -287,4 +287,41 @@ nav li a:hover {
 
 
 
+/*****************************************************************************/
+/*
+/* Media Screens
+/*
+/*****************************************************************************/
 
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 112.5%;
+  }
+
+  nav {
+    position: fixed;
+    top: 30px;
+    width: 28%;
+    max-width: 240px;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .third {
+    padding-top: 1em;
+    width: 30%;
+  }
+
+  .two-third {
+    margin-left: 4%;
+    width: 66%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 125%;
+  }
+}
