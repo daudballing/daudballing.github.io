@@ -16,17 +16,27 @@
         <link rel="stylesheet" type="text/css" href="/assets/fonts/fonts.css">
 
     </head>
+    
     <body>
-
-    <div class="container">
-        <header>
-        {% include navigation.html %}
-        </header>
-
-          {{ content }}
-
-         {% include footer.html %}
-        
+    
+    <header>
+        <div class="container">
+            {% include navigation.html %}        
         </div>
+    </header>
+        
+        <div class="intro">
+            <h1>Hello</h1>
+            <p>Welcome to site which is heavily under !</p>
+        </div>
+        
+        <div class="container">
+                {{ content }}
+        </div>
+
+        <div class="container">
+            {% include footer.html %}
+        </div>
+        
     </body>
 </html>
