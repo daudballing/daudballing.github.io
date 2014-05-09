@@ -277,14 +277,19 @@ nav li a:hover {
   overflow: hidden;
 }
 
-.footer .contact {
+.footer_links {
+  float: right;
+  list-style: none;
+}
+
+.footer_contact {
+  float: left;
   margin-right: 3em;
 }
 
 .footer .contact a {
   color: #8085C1;
 }
-
 
 
 /*****************************************************************************/
