@@ -1,9 +1,36 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<span class="date">// {{ page.date| date_to_string }}</span>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="post">
-	{{ content }}
-</div>
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+        <!-- Google Fonts -->
+        <link rel="stylesheet" type="text/css" href="/assets/fonts/fonts.css">
+
+    </head>
+    
+    <body>
+    
+    <header>
+        <div class="container">
+            {% include navigation.html %}        
+        </div>
+    </header>
+        <div class="post">
+                {{ content }}
+        </div>
+
+        <div class="container">
+            {% include footer.html %}
+        </div>
+        
+    </body>
+</html>
