@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   float: right !important;
 }
 
-.border {
+.box {
   border: 4px solid #999 !important;
 }
 
@@ -292,8 +292,7 @@ nav li a:hover {
   background: url(/assets/images/portrait.jpg) no-repeat;
   background-size: 150px 150px;
   margin-top: 25px;
-  }
-
+}
 
 /* Footer
    ========================================================================== */
@@ -326,10 +325,6 @@ nav li a:hover {
 .footer_links li{
   overflow: hidden;
   display: inline;
-}
-
-.footer .hello a {
-  color: #8085C1;
 }
 
 
@@ -374,7 +369,11 @@ section:first-of-type { border-top: none; }
 
   .column.full { width: 100%;}
   .column.two-thirds { width: 66.7%; }
-  .column.half { width: 50%; }
+  .column_half { 
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+  }
   .column.third { width: 33.3%; }
   .column.fourth { width: 24.95%; }
   .column.flow-opposite { float: right; }
@@ -394,9 +393,31 @@ h4, h5, h6 {font-size: 100%}
 
 h1 { margin-bottom: 0.4em; text-align: center;}
 
-a         { color: #666; }
-a:hover   { color: #ada; }
-a:visited { color: #666; }
+p {
+  color: #999;
+}
+
+.column_half a {
+  color: #1fa36e; 
+  font-weight: 800;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a   {color: #666;}
+
+.column_half a:hover   { 
+  color: #ada;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.column_half a:visited { color: #666; }
+
 
 
 /* Box Model
