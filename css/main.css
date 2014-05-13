@@ -37,6 +37,17 @@ h1, h2, h3, h4, h5, h6 {
   html { font-size: 150%; }
 }
 
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.border {
+  border: 4px solid #999 !important;
+}
 
 .container {
   margin: 0 auto;
@@ -46,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro {
   margin: 0 auto;
-  max-width: 26em;
+  max-width: 600px;
   text-align: center;
 }
 
@@ -272,14 +283,17 @@ nav li a:hover {
   animation-name: fadeIn;
 }
 
-.circular {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  background: url(../assets/portrait.jpg) no-repeat;
+.portrait_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  background: url(/assets/images/portrait.jpg) no-repeat;
+  background-size: 150px 150px;
+  margin-top: 25px;
   }
+
 
 /* Footer
    ========================================================================== */

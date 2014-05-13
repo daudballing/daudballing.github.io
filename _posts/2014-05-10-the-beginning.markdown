@@ -1,7 +1,7 @@
 ---
 layout: post
-date:   2014-05-10 14:26:30
 title: "The Beginning"
+date:   2014-05-10 14:26:30
 categories: post
 ---
 
