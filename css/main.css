@@ -284,20 +284,23 @@ nav li a:hover {
 }
 
 .portrait_image {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
-  -webkit-border-radius: 75px;
-  -moz-border-radius: 75px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
   background: url(/assets/images/portrait.jpg) no-repeat;
-  background-size: 150px 150px;
-  margin-top: 25px;
+  background-size: 200px 200px;
 }
 
 /* Footer
    ========================================================================== */
 
 .footer {
+  width: 50%;
+  margin: 0 auto;
   font-size: 0.64em;
   color: #666;
   border-top: 2px solid #eee;
@@ -379,6 +382,13 @@ section:first-of-type { border-top: none; }
   .column.flow-opposite { float: right; }
 }
 
+.column_half, em {
+  font-style: normal;
+  text-align: center;
+  text-align: justify;
+}
+
+
 /*****************************************************************************/
 /*
 /* Typography
@@ -393,30 +403,35 @@ h4, h5, h6 {font-size: 100%}
 
 h1 { margin-bottom: 0.4em; text-align: center;}
 
-p {
-  color: #999;
+p { color: #999; }
+
+a {color: #666;}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
 
 .column_half a {
   color: #1fa36e; 
-  font-weight: 800;
+  font-weight: bold;
+  font-decoration: none;
   -moz-transition: color 0.3s ease;
   -ms-transition: color 0.3s ease;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
-a   {color: #666;}
-
-.column_half a:hover   { 
+.column_half a:hover { 
   color: #ada;
+  font-decoration: none;
   -moz-transition: color 0.3s ease;
   -ms-transition: color 0.3s ease;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
-.column_half a:visited { color: #666; }
+.column_half a:visited { color: #1fa36e; font-decoration: none;}
 
 
 
