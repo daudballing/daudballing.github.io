@@ -1,4 +1,4 @@
 name: Daud Balling
 markdown: redcarpet
-highlighter: 'rougetrue'
+highlighter: 'rouge'
 permalink: /:categories/:title.html

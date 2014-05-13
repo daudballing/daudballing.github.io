@@ -5,6 +5,8 @@ date:   2014-02-21 22:53:27
 categories: post
 ---
 
+<title>{{ post.title }}</title>
+
 Hi!
 
 "Wuuh, you did it - great!". Speaking to yourself is certainly okay if nobody notice or hears you while doing it. Unfortunately, I'm enjoying the company of my girlfriend while I got this baby, the <a href="http://www.jekyllrb.com/">Jekyll</a> blog, up and running for the first time.
