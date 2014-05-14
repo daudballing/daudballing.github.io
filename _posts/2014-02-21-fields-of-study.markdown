@@ -4,7 +4,7 @@ title:  "Debuting"
 date:   2014-02-21 22:53:27
 categories: post
 ---
-
+<div class="column_half">
 <title>{{ post.title }}</title>
 
 Hi!
@@ -36,3 +36,4 @@ Sites of inspiration that got me going with Jekyll includes:
 	<li>Andrew Munsell // <a href="http://learn.andrewmunsell.com/">learn.andrewmunsell.com/</a></li>
 	<li>Jekyll // <a href="http://jekyllrb.com/">http://jekyllrb.com/</a></li>
 </ul>
+</div>
