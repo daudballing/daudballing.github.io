@@ -29,6 +29,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: justify;
 }
 
+.biography { text-align: justify; }
+
 @media (min-width: 40rem) {
   html { font-size: 112%; }
 }
@@ -386,7 +388,6 @@ section:first-of-type { border-top: none; }
   .column_half { 
     width: 50%;
     margin: 0 auto;
-    text-align: justify;
   }
 @media (max-width: 420px) {
   .column_half { width: 90%; }
