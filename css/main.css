@@ -50,6 +50,9 @@ h1, h2, h3, h4, h5, h6 {
 .box {
   border: 4px solid #999 !important;
 }
+.box-green {
+  border: 4px solid #1fa36e !important;
+}
 
 .container {
   margin: 0 auto;
@@ -102,8 +105,25 @@ header a:hover { text-decoration: none; }
   text-decoration: underline;
 }
 
+/*****************************************************************************/
+/*
+/* Map Fluidity
+/*
+/*****************************************************************************/
 
-
+.fluid-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.fluid-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        border: none;
+}
 
 /*****************************************************************************/
 /*
@@ -135,6 +155,7 @@ header a:hover { text-decoration: none; }
 }
 
 .posts a {
+  color: #1fa36e;
   font-size: 1em;
   text-decoration: none;
   font-style: bold;
@@ -345,7 +366,6 @@ nav li a:hover {
 /*
 /*****************************************************************************/
 
-
 .mobile {
   margin: 0 auto;
   max-width: 150px;
@@ -377,7 +397,7 @@ section:first-of-type { border-top: none; }
 /* Mobile First Grid
    ========================================================================== */
 
-.column { margin-bottom: 1.5rem; }
+  .column { margin-bottom: 1.5rem; }
 
 /* Medium screens (640px) */
   .column.full { width: 100%;}
@@ -499,3 +519,8 @@ a:hover, a:visited, a:link, a:active { text-decoration: none; }
   .intro { width: 70%; }
   .column_half { width: 70%; }
 }
+
+
+
+
+
