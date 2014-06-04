@@ -1,4 +1,4 @@
-/*****************************************************************************/
+$ /*****************************************************************************/
 /*
 /* Layout
 /*
@@ -12,15 +12,30 @@
 
 html {
   font: 100%/1.5 "Noto Sans", sans-serif;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;}
 
 body {
   font-family: georgia, 'times new roman', times, serif;  
   font-style: normal;
-  font-size: 19px;
   font-variant: normal;
+  text-align: justify;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 53rem;
+  width: 90%;
+}
+
+.column {
+  clear: none;
+  margin: 0;
+  width: 100%;
+}
+
+/* HEADERS */
 
 h1, h2, h3, h4, h5, h6 {
   background-color: #FFF;
@@ -29,15 +44,15 @@ h1, h2, h3, h4, h5, h6 {
   text-align: justify;
 }
 
-.biography { text-align: justify; }
-
-/*** Medium screens (640px) ***/
+/* Medium screens (640px) */
 
 @media (min-width: 40rem) {
+
   html { font-size: 112%; }
+  .posts a{ font-size: 2rem;}
 }
 
-/*** Large screens (640px) ***/
+/* Large screens (640px) */
 
 @media (min-width: 64rem) {
   html { font-size: 120%; }
@@ -58,25 +73,12 @@ h1, h2, h3, h4, h5, h6 {
   border: 4px solid #1fa36e !important;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 53rem;
-  width: 90%;
-}
-
 .intro {
   margin: 0 auto;
-  max-width: 600px;
   text-align: center;
 }
-/* MOBILE VIEW */
-@media (max-width: 420px) {
-  .intro { width: 90%; }
-  .intro { text-align: justify; }
-}
-.intro p {
-  color: #999;
-}
+.intro h1, h5 { text-align: center; }
+.intro p { color: #999; }
 
 /*****************************************************************************/
 /*
@@ -127,7 +129,7 @@ header a:hover { text-decoration: none; }
     left: 0;
     width: 100%;
     height: 100%;
-        border: none;
+    border: none;
 }
 
 /*****************************************************************************/
@@ -152,7 +154,7 @@ header a:hover { text-decoration: none; }
 }
 
 @media (max-width: 40rem) {
-  .column_half span { display: none;}
+  .column.half span { display: none;}
 }
 
 .posts p {
@@ -172,10 +174,6 @@ header a:hover { text-decoration: none; }
   -ms-transition: color 0.3s ease;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
-}
-
-@media (max-width: 40rem) {
-  .posts a{ font-size: 2rem;}
 }
 
 /*****************************************************************************/
@@ -230,7 +228,6 @@ nav li.current a { color: #333; }
 nav li:last-child a {
   /*padding-bottom: 0.3rem;*/
 }
-
 nav li a:hover {
   color: #333;
   text-decoration: none;
@@ -273,6 +270,17 @@ nav li a:hover {
 /* Animations
 /*
 /*****************************************************************************/
+
+.animated {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
 
 @-webkit-keyframes fadeIn {
   0% {opacity: 0;}
@@ -391,13 +399,16 @@ section {
   padding: 2rem 0;
 }
 
+.green {
+  background: green;
+}
+
 section:first-of-type { border-top: none; }
 
 /* Medium screens (640px) */
 @media (min-width: 40rem) {
   html { font-size: 112%; }
   section { padding: 4rem 0; }
-  ul { display: inline-block; }
 }
 
 /* Mobile First Grid
@@ -405,32 +416,48 @@ section:first-of-type { border-top: none; }
 
   .column { margin-bottom: 1.5rem; }
 
-/* Medium screens (640px) */
-  .column.full { width: 100%;}
-  .column.two-thirds { width: 66.7%; }
-  .column_half { 
-    width: 50%;
-    margin: 0 auto;
-  }
-  
-  @media (max-width: 420px) {
-  .column_half { width: 90%; }
-  }
+ @media (min-width: 40rem) {
 
-  .column.third { width: 33.3%; }
-  .column.fourth { width: 24.95%; }
+  .column {
+    float: left;
+    margin-right: 5%;
+  }
+  .one-fourth {
+    width: 22.5%;
+  }
+  .one-third {
+    width: 30%;
+  }
+  .half {
+    width: 47.5%;
+  }
+  .column.half li { list-style: none; }
+  .column.half span { float: right; color: #555; }
+  .column.half h5 { text-align: center; color: #999; }
+  .column.half em {
+      font-style: normal;
+      text-align: center;
+      text-align: justify;
+  }
+  .two-third {
+    width: 65%;
+  }
+  .three-fourth {
+    width: 67.5%
+  }
+  .row .column:last-child {
+    margin-right: 0;
+    clear: right;
+  }
+  .first {
+    border: 1px solid #008080;
+    margin-left: 0;
+  }
   .column.flow-opposite { float: right; }
+
+
 }
 
-.column_half em {
-  font-style: normal;
-  text-align: center;
-  text-align: justify;
-}
-
-.column_half li { list-style: none; }
-.column_half span { float: right; color: #555; }
-.column_half h5 { text-align: center; color: #999; }
 /*****************************************************************************/
 /*
 /* Typography
@@ -446,7 +473,7 @@ p { color: #999; }
 a { color: #666; }
 a:hover, a:visited, a:link, a:active { text-decoration: none; }
 
-.column_half a, a:visited{
+.column.half a, a:visited{
   color: #1fa36e; 
   font-weight: bold;
   font-decoration: none;
@@ -456,7 +483,7 @@ a:hover, a:visited, a:link, a:active { text-decoration: none; }
   transition: color 0.3s ease;
 }
 
-.column_half a:hover { 
+.column.half a:hover { 
   color: #ada;
   font-decoration: none;
   -moz-transition: color 0.3s ease;
@@ -469,7 +496,6 @@ a:hover, a:visited, a:link, a:active { text-decoration: none; }
    ========================================================================== */
 
 .box-model h1 { margin-bottom: 3rem; }
-
 .margin { color: #f9cd9d; }
 .border { color: #fce08f; }
 .padding { color: #c2ddb6; }
@@ -496,7 +522,6 @@ a:hover, a:visited, a:link, a:active { text-decoration: none; }
   *zoom: 1;
 }
 
-
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -515,18 +540,9 @@ a:hover, a:visited, a:link, a:active { text-decoration: none; }
   text-align: left;
 }
 
-/* MOBILE VIEW 
-@media (max-width: 420px) {
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 134%;
+  }
 }
-*/
-
-/* "TABLET" VIEW */
-@media (min-width: 421px) and (max-width: 800px) {
-  .intro { width: 70%; }
-  .column_half { width: 70%; }
-}
-
-
-
-
 

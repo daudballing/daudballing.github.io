@@ -11,7 +11,6 @@
         <!-- CSS -->
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/bikers-vs-police.css">
         <!--[if lt IE 9]>
           <script src="/js/html5shiv.js"></script>
         <![endif]-->
@@ -30,31 +29,41 @@
           ga('send', 'pageview');
         </script>
     </head>
-    
 <body>
   <div class="container">
-  	
-    <div class="intro">
-  		<h1>Bikers vs. Police</h1>
-  		<p>Map overview of all observed bike raids, made by the law enforcement in Copenhagen, observed by the people of Copenhagen.</p>
-  	</div>
-  	
-    <div class="column full">
-  		<div class="fluid-wrapper box-green">
-  			<iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zmjfAOlFWO2s.kzvsfY9-DbhU" frameborder="0" style="border:0" width="640" height="480"></iframe>
-  		</div>
-  	</div>
+    <div class="row clearfix">
+      <div class="intro">
+    		<h1>Bikers vs. Police</h1>
+    		<p>Map overview of all observed bike raids, made by the law enforcement in Copenhagen, observed by the people of Copenhagen.</p>
+    	</div>
+    	
+      <div class="column">
+    		<div class="fluid-wrapper box-green">
+    			<iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zmjfAOlFWO2s.kzvsfY9-DbhU" frameborder="0" style="border:0" width="640" height="480"></iframe>
+    		</div>
+    	</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row clearfix">
+    	<div class="column one-third">
+          <h3>Months:</h3>
+      		  <ul>
+              <li>March</li>
+              <li>April</li>
+              <li>June</li>
+            </ul>
+      </div>
 
-  	<div class="data-box">
-    	<ul>
-    		<li><h3>Months</h3>
-    		<p>March, April and June</p>
-    		</li>
-    		
-    		<li><h3>Tester</h3>
-    		<p>Testing testing</p>
-    		</li>
-    	</ul>
-  	</div>
+      <div class="column one-third">
+            <h3>City:</h3>
+      		  <p>Copenhagen</p>
+    	</div>
+      
+      <div class="column one-third">
+            <h3>Number of raids:</h3>
+            <p>70</p>
+       </div>
+    </div>
   </div>
 </body>

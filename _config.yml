@@ -1,4 +1,6 @@
 name: Daud Balling
+description: Apprentice at S-cubed Ltd.
+
 markdown: redcarpet
 highlighter: 'rouge'
-permalink: /:categories/:title.html
+permalink: /:categories/:title/

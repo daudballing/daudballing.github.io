@@ -4,7 +4,7 @@ title:  "Debuting"
 date:   2014-02-21 22:53:27
 categories: post
 ---
-<div class="column_half">
+<div class="column">
 <title>{{ post.title }}</title>
 
 Hi!
@@ -16,7 +16,7 @@ I have been thinking for some time now to begin my own personal blog, for a few 
 The idea behind this blog came from a visit at Adam Kaplan's <a href="http://www.adamkaplan.me/">site</a>. He uses his site to write about his learning progress and shows some of his projects as well. Go check his stuff!
 
 <div class="row clearfix">
-	<div class ="column full">
+	<div class ="column">
 		<h2>Topics I'm considering posting on:</h2>
 		<ul>
 			<li>Ruby</li>
