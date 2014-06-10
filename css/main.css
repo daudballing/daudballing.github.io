@@ -139,6 +139,7 @@ header a:hover { text-decoration: none; }
 /*****************************************************************************/
 
 .posts {
+  padding: 0;
   list-style-type: none;
   margin-bottom: 2em;
 }
@@ -155,6 +156,10 @@ header a:hover { text-decoration: none; }
 
 @media (max-width: 40rem) {
   .column.half span { display: none;}
+}
+
+.posts h2 {
+  text-align: center;
 }
 
 .posts p {
@@ -356,10 +361,6 @@ section {
   border-top: 1px solid #eee;
   text-align: center;
   padding: 2rem 0;
-}
-
-.green {
-  background: green;
 }
 
 section:first-of-type { border-top: none; }
