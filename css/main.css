@@ -281,13 +281,13 @@ nav li a:hover {
 .portrait_image {
   display: block;
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
   background: url(/assets/images/portrait.jpg) no-repeat;
-  background-size: 200px 200px;
+  background-size: 180px 180px;
 }
 
 /* Footer
