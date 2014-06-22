@@ -4,11 +4,7 @@ $ /*****************************************************************************
 /*
 /*****************************************************************************/
 
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
 html {
   font: 100%/1.5 "Noto Sans", sans-serif;
@@ -367,29 +363,13 @@ section:first-of-type { border-top: none; }
     float: left;
     margin-right: 5%;
   }
-  .one-fourth {
-    width: 22.5%;
-  }
-  .one-third {
-    width: 30%;
-  }
-  .half {
-    width: 47.5%;
-  }
-  .column.half li { list-style: none; }
-  .column.half span { float: right; color: #555; }
-  .column.half h5 { text-align: center; color: #999; }
-  .column.half em {
-      font-style: normal;
-      text-align: center;
-      text-align: justify;
-  }
-  .two-third {
-    width: 65%;
-  }
-  .three-fourth {
-    width: 67.5%
-  }
+
+  .column.full { width: 100%;}
+  .one-fourth { width: 22.5%;}
+  .one-third { width: 30%;}
+  .half { width: 45%;}
+  .two-third { width: 65%;}
+  .three-fourth { width: 67.5%}
   .row .column:last-child {
     margin-right: 0;
     clear: right;
