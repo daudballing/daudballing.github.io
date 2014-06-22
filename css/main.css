@@ -109,11 +109,15 @@ header a:hover { text-decoration: none; }
   text-decoration: underline;
 }
 
+
 /*****************************************************************************/
 /*
 /* Map Fluidity
 /*
 /*****************************************************************************/
+
+#map { position:absolute; top:0; bottom:0; width:100%; }
+
 
 .fluid-wrapper {
     position: relative;
@@ -128,6 +132,7 @@ header a:hover { text-decoration: none; }
     height: 100%;
     border: none;
 }
+
 
 /*****************************************************************************/
 /*
