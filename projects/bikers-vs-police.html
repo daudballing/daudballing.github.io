@@ -24,8 +24,9 @@
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-51611268-1', 'daudballing.me');
-          ga('send', 'pageview');
+            ga(‘set’, ‘&uid’, {{USER_ID}}); // Set the user ID using signed-in user_id.
+            ga('create', 'UA-51611268-1', 'daudballing.me');
+            ga('send', 'pageview');
         </script>
     </head>
 <body>
@@ -35,6 +36,7 @@
         <div class="intro">
       		<h1>Bikers vs. Police</h1>
       		<p><i>Map overview of all observed bike raids, made by the law enforcement in Copenhagen, observed by the people of Copenhagen.</i></p>
+          <h3>Made by <a href="http://daudballing.me">Daud Balling</a></h3>
       	</div>
       </div>
       <div class="column">
@@ -43,7 +45,7 @@
       <div class="row clearfix">
         <div class="column half">
           <h4>ABOUT THE PROJECT</h4>
-          <p>The mapping of observed bike raids is a practical example of working with Google Maps (EDIT: now using Mapbox) and data collected from an open group for biking enthusiasts on Facebook.</p>
+          <p>The mapping of observed bike raids is a practical example of working with Google Maps (EDIT: now using <a href="https://www.mapbox.com/">Mapbox</a>) and data collected from an open group for biking enthusiasts on Facebook.</p>
           <p>The idea was simply to gather all posts from the Facebook group within the last few months, March, April and May 2014, and pin the different post to the actual locations where the observations were made.</p>
         </div>
         <div class="column half">
@@ -65,5 +67,6 @@
           <p>Areas as Frederiksberg, Østerbro and Amager seem less exposed.</p>
         </div>
       </div>
+
     </div>
 </body>
