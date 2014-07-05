@@ -1,51 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8" />
-    <title>&Co</title>
-	<link href="css/normalize.css" rel="stylesheet" />
-	<link href="css/grid.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-</head>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>&Co</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+	</head>
 	<body>
 		<div class="container">
-		<header>
-			<div class="intro">
-				<img src="/projects/sounds/images/logo.png">
-			</div>
-		</header>
-
-		<div class="row clearfix">
-			<div class="column third">
-			    <div class="button">
-			    	<a onclick="this.firstChild.play()"><audio src="/projects/sounds/audio/det_er_saadan.ogg"></audio></a><p>▸ 1</p>
-			    </div>
-			</div>
-			<div class="column third">
-			    <div class="button">
-			    	<a onclick="this.firstChild.play()"><audio src="/projects/sounds/audio/en_stor_inspiration.ogg"></audio></a><p>▸ 2</p>
-			    </div>
-			</div>
-			<div class="column third">
-			    <div class="button">
-			    	<a onclick="this.firstChild.play()"><audio src="/projects/sounds/audio/fordi_det_er_skide_sjovt.ogg"></audio></a><p>▸ 3</p>
-			    </div>
-			</div>
-			<div class="column third">
-			    <div class="button">
-			    	<a onclick="this.firstChild.play()"><audio src="/projects/sounds/audio/the_classics.ogg"></audio></a><p>▸ 4</p>
-			    </div>
-			</div>
-			<div class="column third">
-			    <div class="button">
-			    	<a onclick="this.firstChild.play()"><audio src="/projects/sounds/audio/omelet.ogg"></audio></a><p>▸ 5</p>
-			    </div>
-			</div>
-		</div>
-		<div class="footer">
-			<img src="/projects/sounds/images/lion.jpg">
-		</div>
-		</container>
+			<header>
+				<h1>&Co</h1>	
+			</header>
+			<section class="canvas">
+				<p>
+					<a onclick="this.firstChild.play()"><audio src="assets/audio/det_er_saadan.ogg"></audio><button class="btn btn-1 btn-2i">1</button></a>
+					<a onclick="this.firstChild.play()"><audio src="assets/audio/en_stor_inspiration.ogg"></audio><button class="btn btn-1 btn-2i">2</button></a>
+					<a onclick="this.firstChild.play()"><audio src="assets/audio/fordi_det_er_skide_sjovt.ogg"></audio><button class="btn btn-1 btn-2i">3</button></a>
+				</p>
+				<p>
+					<a onclick="this.firstChild.play()"><audio src="assets/audio/omelet.ogg"></audio><button class="btn btn-1 btn-2i">4</button></a>
+					<a onclick="this.firstChild.play()"><audio src="assets/audio/the_classics.ogg"></audio><button class="btn btn-1 btn-2i">5</button></a>
+					<a onclick="this.firstChild.play()"><audio src="assets/audio/the_classics2.ogg"></audio><button class="btn btn-1 btn-2i">6</button></a>
+				</p>
+			</section>
+			<div class="footer"><img src="assets/images/lion.jpg"></section>
+		</div><!-- /container -->
 	</body>
 </html>
