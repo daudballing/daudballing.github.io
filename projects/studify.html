@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic Page Needs -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <title>Bikers vs. Police</title>
+        <meta name="description" content="Hi! I'm Daud Balling and this is my website.">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <!--[if lt IE 9]>
+          <script src="/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <!-- Google Fonts -->
+        <link rel="stylesheet" type="text/css" href="/assets/fonts/fonts.css">
+        <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga(‘set’, ‘&uid’, {{USER_ID}}); // Set the user ID using signed-in user_id.
+            ga('create', 'UA-51611268-1', 'daudballing.me');
+            ga('send', 'pageview');
+        </script>
+    </head>
+<body>
+  <div class="container">
+    <div class="row clearfix">
+      <div class="column">
+        <div class="intro">
+      		<h1>Studyfi</h1>
+      		<p><i>Overview of most open-to-public reading and study places in Copenhagen.</i></p>
+          <h3>A project made by <a href="http://daudballing.me">Daud Balling</a></h3>
+      	</div>
+      </div>
+<!--  Map Commented Out     
+      <div class="column">
+    		<iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v3/daudballing.ij68nnjg/attribution,zoompan,zoomwheel,geocoder,share.html'></iframe>
+      </div>
+-->
+      <div class="row clearfix">
+        <div class="column half">
+          <h4>ABOUT THE PROJECT</h4>
+          <p>The mapping of observed bike raids is a practical example of working with Google Maps (EDIT: now using <a href="https://www.mapbox.com/">Mapbox</a>) and data collected from an open group for biking enthusiasts on Facebook.</p>
+          <p>The idea was simply to gather all posts from the Facebook group within the last few months, March, April and May 2014, and pin the different post to the actual locations where the observations were made.</p>
+        </div>
+        <div class="column half">
+          <h4>TOOLS USED FOR THE PROJECT</h4>
+          <p>As for the map, I created a custom map with <a href="https://www.google.com/maps/">Google Maps</a> and made three different layers for each of the months of which the data was collected.</p>
+          <p>I collected data from the this <a href="https://www.facebook.com/groups/234419406651567/">Facebook Group - "Cykelrazzia"</a>. I copied the content from each post into my custom map, and pinned it to each described location.</p>
+          <p>EDIT: I've changed the map from <a href="https://www.google.com/maps/">Google Maps</a> to <a href="https://www.mapbox.com/">Mapbox</a></p>
+        </div>
+      </div>
+      <div class="row clearfix">
+        <div class="column half">
+          <h4>OBJECTIVE</h4>
+          <p>The objective is to provide the reader with a quick overview of the most common places of bike raids. At the same time, it enables the reader to find and examine the areas of town where the law enforcements seem to appear less frequently</p>
+        </div>
+        <div class="column half">
+          <h4>A FEW OBSERVATIONS</h4>
+          <p>Nørrebrogade, looks like taking top prize in observations, whereas similar streets like, Vesterbrogade and Østerbrogade has a significantly less amount of observations in the same period.</p>
+          <p>Dronning Louises Bro is particularly exposed with seven occurrences.</p>
+          <p>Areas as Frederiksberg, Østerbro and Amager seem less exposed.</p>
+        </div>
+      </div>
+
+    </div>
+</body>
