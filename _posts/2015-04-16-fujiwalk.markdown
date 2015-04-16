@@ -9,7 +9,6 @@ img:
 ---
 
 ## Fujiwalk in Copenhagen
-### ..some time in April.
 
   <div class="blog-images">
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-8.jpg)
