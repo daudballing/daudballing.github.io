@@ -7,7 +7,7 @@ $ /*****************************************************************************
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
 html {
-  font: 100%/1.5 "Noto Sans", sans-serif;
+  font: 95%/1.5 "Noto Sans", sans-serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;}
@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #FFF;
   color: #555;
   font: 'Noto Sans' Helvetica, Arial, sans-serif;
+  font-size: 10rem;
   text-align: justify;
 }
 
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 40rem) {
 
-  html { font-size: 112%; }
+  html { font-size: 115%; }
   .posts a{ font-size: 2rem;}
 }
 
@@ -360,33 +361,49 @@ section:first-of-type { border-top: none; }
 /* Mobile First Grid
    ========================================================================== */
 
-  .column { margin-bottom: 1.5rem; }
+.column { margin-bottom: 1.5rem; }
 
- @media (min-width: 40rem) {
 
-  .column {
-    float: left;
-    margin-right: 5%;
+  .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
+    .center-text{
+    text-align: center;
+    }
 
-  .column.full { width: 100%;}
-  .one-fourth { width: 22.5%;}
-  .one-third { width: 30%;}
-  .half { width: 45%;}
-  .two-third { width: 65%;}
-  .three-fourth { width: 67.5%}
-  .row .column:last-child {
-    margin-right: 0;
-    clear: right;
+    @media (min-width: 40rem) {
+    .column {
+      float: left;
+      margin-right: 5%;
+    }
+
+    .column.full { width: 100%;}
+    .one-fourth { width: 22.5%;}
+    .one-third { width: 30%;}
+    .half { width: 45%;}
+    .two-third { width: 65%;}
+    .three-fourth { width: 67.5%}
+    .row .column:last-child {
+      margin-right: 0;
+      clear: right;
+    }
+    .first {
+      border: 1px solid #008080;
+      margin-left: 0;
+    }
+    .column.flow-opposite { float: right; }
+
+    .center-block {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+      .center-text{
+      text-align: center;
+      }
   }
-  .first {
-    border: 1px solid #008080;
-    margin-left: 0;
-  }
-  .column.flow-opposite { float: right; }
-
-
-}
 
 /*****************************************************************************/
 /*
