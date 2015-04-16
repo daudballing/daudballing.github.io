@@ -13,7 +13,7 @@ html {
   -webkit-font-smoothing: antialiased;}
 
 body {
-  border-top: 4px solid #1fa36e;
+  border-top: 4px solid #3FAFA2;
   font-family: georgia, 'times new roman', times, serif;  
   font-style: normal;
   font-variant: normal;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 4px solid #999 !important;
 }
 .box-green {
-  border: 4px solid #1fa36e !important;
+  border: 4px solid #3FAFA2 !important;
 }
 
 .intro {
@@ -170,14 +170,14 @@ header a:hover { text-decoration: none; }
 }
 
 .posts a {
-  color: #1fa36e;
+  color: #3FAFA2;
   font-size: 1em;
   text-decoration: none;
   font-style: bold;
 }
 
 .posts a:visited{
-  color: #1fa36e;
+  color: #3FAFA2;
 }
 
 .posts a:hover{
@@ -224,7 +224,7 @@ nav li {
 }
 
 nav li a {
-  color: #1fa36e;
+  color: #3FAFA2;
   font-size: 1rem;
   font-weight: 600;
   display: block;
@@ -236,7 +236,7 @@ nav li a {
 }
 
 nav li.current a { color: #666; }
-nav li.visited a { color: #1fa36e; }
+nav li.visited a { color: #3FAFA2; }
 nav li:last-child a {
   /*padding-bottom: 0.3rem;*/
 }
@@ -417,7 +417,7 @@ h3 { font-size: 1.063em; text-align: center;}
 h4, h5, h6 {font-size: 100%, text-align: center;}
 
 p { color: #999; }
-a { color: #1fa36e; text-decoration: none; }
+a { color: #3FAFA2; text-decoration: none; }
 a:hover {color: #666;}
 
 
