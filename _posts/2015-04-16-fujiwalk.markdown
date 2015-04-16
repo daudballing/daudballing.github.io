@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Fujiwalk
+date:   2015-04-16
+img:
+  small: fujiwalk-april-2015-8.jpg
+  medium: fujiwalk-april-2015-9.jpg
+  large: fujiwalk-april-2015-10.jpg
+---
+
+## Fujiwalk in Copenhagen
+### ..some time in April.
+
+  <div class="blog-images">
+![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-8.jpg)
+![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-2.jpg)
+![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-3.jpg)
+![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-4.jpg)
+![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-5.jpg)
+![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-6.jpg)
+![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-7.jpg)
+![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-9.jpg)
+![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-10.jpg)
+  </div>
