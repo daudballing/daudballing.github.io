@@ -12,12 +12,21 @@ img:
 
   <div class="blog-images">
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-8.jpg)
+##### *".15 past"*
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-2.jpg)
+##### *"arch"*
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-3.jpg)
+##### *"corner"*
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-4.jpg)
+##### *"cup"*
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-5.jpg)
+##### *"barbed"*
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-6.jpg)
+##### *"for two"*
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-7.jpg)
+##### *"FOH"*
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-9.jpg)
+##### *"contact"*
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-10.jpg)
+##### *"midt town"*
   </div>
