@@ -28,5 +28,5 @@ img:
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-9.jpg)
 ##### *"contact"*
 ![placeholder]({{ site.url }}/assets/images/2015/apr/fujiwalk/fujiwalk-april-2015-10.jpg)
-##### *"midt town"*
+##### *"midtown"*
   </div>
